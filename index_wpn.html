@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Web Push Notification</title>
+    <!-- custom-theme -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Web Push Notification" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/component.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+</head>
+<body>
+<!-- banner -->
+<div class="wthree_agile_admin_info">
+		  <!-- /w3_agileits_top_nav-->
+		  <!-- /nav-->
+		  <div class="w3_agileits_top_nav">
+			<ul id="gn-menu" class="gn-menu-main">
+				  		 <!-- /nav_agile_w3l -->
+				<li class="gn-trigger">
+					<a class="gn-icon gn-icon-menu"><i class="fa fa-bars" aria-hidden="true"></i><span>Menu</span></a>
+					<nav class="gn-menu-wrapper">
+						<div class="gn-scroller scrollbar1">
+							<ul class="gn-menu agile_menu_drop">
+								<li><a href="index.html"> <i class="fa fa-tachometer"></i> Home</a></li>
+								<li><a href="campaigns.html"> <i class="fa fa-cogs"></i> All Campaign</a></li>
+								<li><a href="create.html"> <i class="fa fa-cogs"></i> Create Campaign</a></li>
+								<li><a href="design.html"> <i class="fa fa-cogs"></i> Create Design</a></li>
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<!-- //nav_agile_w3l -->
+                <li class="second logo"><h1><a href="index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Web Push Notification </a></h1></li>
+					
+				<li class="second top_bell_nav">
+				   <ul class="top_dp_agile ">
+									<li class="dropdown head-dpdn">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-bell-o" aria-hidden="true"></i> <span class="badge blue">4</span></a>
+										<ul class="dropdown-menu">
+											<li>
+												<div class="notification_header">
+													<h3>Your Notifications</h3>
+												</div>
+											</li>
+											<li><a href="#">
+												<div class="user_img"><img src="images/a3.jpg" alt=""></div>
+											   <div class="notification_desc">
+											     <h6>John Smith</h6>
+												<p>Lorem ipsum dolor</p>
+												<p><span>1 hour ago</span></p>
+												</div>
+											  <div class="clearfix"></div>	
+											 </a></li>
+											 <li class="odd"><a href="#">
+												<div class="user_img"><img src="images/a1.jpg" alt=""></div>
+											   <div class="notification_desc">
+											     <h6>Jasmin Leo</h6>
+												<p>Lorem ipsum dolor</p>
+												<p><span>3 hour ago</span></p>
+												</div>
+											   <div class="clearfix"></div>	
+											 </a></li>
+											 <li><a href="#">
+												<div class="user_img"><img src="images/a2.jpg" alt=""></div>
+											   <div class="notification_desc">
+											     <h6>James Smith</h6>
+												<p>Lorem ipsum dolor</p>
+												<p><span>2 hour ago</span></p>
+												</div>
+											   <div class="clearfix"></div>	
+											 </a></li>
+											  <li><a href="#">
+												<div class="user_img"><img src="images/a4.jpg" alt=""></div>
+											   <div class="notification_desc">
+											     <h6>James Smith</h6>
+												<p>Lorem ipsum dolor</p>
+												<p><span>1 hour ago</span></p>
+												</div>
+											   <div class="clearfix"></div>	
+											 </a></li>
+											 <li>
+												<div class="notification_bottom">
+													<a href="#">See all Notifications</a>
+												</div> 
+											</li>
+										</ul>
+									</li>
+									
+						</ul>
+				</li>
+				<li class="second top_bell_nav">
+				   <ul class="top_dp_agile ">
+				       <li class="dropdown head-dpdn">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue">9</span></a>
+										<ul class="dropdown-menu">
+											<li>
+												<div class="notification_header">
+													<h3>You have 4 Pending tasks</h3>
+												</div>
+											</li>
+											<li><a href="#">
+												<div class="task-info">
+													<span class="task-desc">Database update</span><span class="percentage">40%</span>
+													<div class="clearfix"></div>	
+												</div>
+												<div class="progress progress-striped active">
+													<div class="bar yellow" style="width:40%;"></div>
+												</div>
+											</a></li>
+											<li><a href="#">
+												<div class="task-info">
+													<span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
+												   <div class="clearfix"></div>	
+												</div>
+												<div class="progress progress-striped active">
+													 <div class="bar green" style="width:90%;"></div>
+												</div>
+											</a></li>
+											<li><a href="#">
+												<div class="task-info">
+													<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
+													<div class="clearfix"></div>	
+												</div>
+											   <div class="progress progress-striped active">
+													 <div class="bar red" style="width: 33%;"></div>
+												</div>
+											</a></li>
+											<li><a href="#">
+												<div class="task-info">
+													<span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
+												   <div class="clearfix"></div>	
+												</div>
+												<div class="progress progress-striped active">
+													 <div class="bar  blue" style="width: 80%;"></div>
+												</div>
+											</a></li>
+											<li>
+												<div class="notification_bottom">
+													<a href="#">See all pending tasks</a>
+												</div> 
+											</li>
+										</ul>
+									</li>	
+								</ul>
+				</li>
+
+				<li class="second admin-pic">
+					<ul class="top_dp_agile">
+								 <li class="dropdown profile_details_drop">
+									 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+										 <div class="profile_img">	
+											 <span class="prfil-img"><img src="images/admin.jpg" alt=""> </span> 
+										 </div>	
+									 </a>
+									 <ul class="dropdown-menu drp-mnu">
+										 <li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
+										 <li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
+										 <li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
+									 </ul>
+								 </li>
+								 
+					 </ul>
+			 </li>
+
+			</ul>
+			<!-- //nav -->
+			
+		</div>
+		<div class="clearfix"></div>
+		<!-- //w3_agileits_top_nav-->
+		
+		<!-- /inner_content-->
+				<div class="inner_content">
+				    <!-- /inner_content_w3_agile_info-->
+
+					<!-- breadcrumbs -->
+						<div class="w3l_agileits_breadcrumbs">
+							<div class="w3l_agileits_breadcrumbs_inner">
+								<ul>
+									<li><a href="main-page.html">Home</a></li>
+									<!-- <li>More <span>«</span></li>
+									<li>FaQs</li> -->
+								</ul>
+							</div>
+						</div>
+					<!-- //breadcrumbs -->
+
+					<div class="inner_content_w3_agile_info two_in">
+					  <h2 class="w3_inner_tittle">Push Notification Segmentation: Is It Top Priority?</h2>
+
+							<!-- /blank -->
+								<div class="blank_w3ls_agile">
+									<div class="blank-page agile_info_shadow">
+										<p>
+											Do you want to segment subscribers at the time of subscription in <strong>web push?</strong> In this article, we will show you the exact steps to segment subscribers right at the time of subscription.
+
+Segmentation means dividing buyers with similar characteristics into small groups to send personalized web messages. If you can segment or group your users based on their preference, or based on their browsing pattern, you can then send out relevant notifications. This will get you higher click rates, and lower unsubscribes. One of the important push notification features is segmentation. Push Notification allows you to segment your subscriber based on different rules. As a push notification opt-in strategy, you can now segment users at the time of subscription. Before signing up with any push notification service, make sure to check out segmentation feature. At PushEngage, we understand how important is segmentation. That’s why PushEngage offers 6 different ways to segment push subscribers users.
+
+One fits all strategy always fails in marketing and to cope up with that segmentation is the key. With PushEngage you can segment users in many ways.
+
+You can not only segment your users based on their browsing habits (using our javascript library) but with our new release, you can also do segmentation at the time of subscription.
+										</p>
+									</div>
+								</div>
+							<!-- //blank -->
+				    </div>
+					<!-- //inner_content_w3_agile_info-->
+				</div>
+		<!-- //inner_content-->
+	</div>
+<!-- banner -->
+<!--copy rights start here-->
+<div class="copyrights">
+	 <p>© 2021 Web Push Notification. All Rights Reserved</p>
+</div>	
+<!--copy rights end here-->
+<!-- js -->
+
+<div class="modal fade text-center py-5"  id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-md" role="document">
+
+        <div class="modal-content">
+            <div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+				<div class="top-strip"></div>
+                <a class="h2" href="#" target="_blank">Web Push Notification</a>
+                <h3 class="pb-1 text-muted">Please select below categories</h3>
+                <form>
+                    <div class="row">
+						<div class="form-group" style="margin-top: 20px;">
+                            <div class="col-md-3" style="text-align: left;"></div>
+							<div class="col-md-3" style="text-align: left;">
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Maruthi"> Maruthi</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Suzuki"> Suzuki</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Toyota"> Toyota</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Hyndai"> Hyndai</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="BMW"> BMW</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Audi"> Audi</label></div>
+							</div>
+							<div class="col-md-6" style="text-align: left;">
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Kia"> Kia</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Tata"> Tata</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Mahindra"> Mahindra</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Honda"> Honda</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Jeep"> Jeep</label></div>
+								<div class="checkbox-inline1"><label><input type="checkbox" class="carCheckbox" name="cars[]" value="Jaguar"> Jaguar</label></div>
+							</div>
+						</div>
+                        <div id="list" style="display: none;"></div>
+    				  <!-- <input type="email" class="form-control" placeholder="sunlimetech@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+    				  <div class="input-group-append">
+    					<button class="btn btn-primary" type="button" id="button-addon2"><i class="fa fa-paper-plane"></i></button>
+    				  </div> -->
+    				</div>
+    			</form>
+				<button type="submit" class="btn btn-default btn-lg" style="margin-top: 20px;" id="subscribeButton">Subscribe</button>
+
+				<div class="bottom-strip"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+          <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+		  <script src="js/modernizr.custom.js"></script>
+		
+		   <script src="js/classie.js"></script>
+		  <script src="js/gnmenu.js"></script>
+		  <script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		 </script>
+		 <script type="text/javascript">
+         var RTCPeerConnection = window.webkitRTCPeerConnection || window.mozRTCPeerConnection;  
+if (RTCPeerConnection)(function() {  
+    var rtc = new RTCPeerConnection({  
+        iceServers: []  
+    });  
+    if (1 || window.mozRTCPeerConnection) {  
+        rtc.createDataChannel('', {  
+            reliable: false  
+        });  
+    };  
+    rtc.onicecandidate = function(evt) {  
+        if (evt.candidate) grepSDP("a=" + evt.candidate.candidate);  
+    };  
+    rtc.createOffer(function(offerDesc) {  
+        grepSDP(offerDesc.sdp);  
+        rtc.setLocalDescription(offerDesc);  
+    }, function(e) {  
+        console.warn("offer failed", e);  
+    });  
+    var addrs = Object.create(null);  
+    addrs["0.0.0.0"] = false;  
+  
+    function updateDisplay(newAddr) {  
+        if (newAddr in addrs) return;  
+        else addrs[newAddr] = true;  
+        var displayAddrs = Object.keys(addrs).filter(function(k) {  
+            return addrs[k];  
+        });  
+        document.getElementById('list').textContent = displayAddrs.join(" or perhaps ") || "n/a";  
+    }  
+  
+    function grepSDP(sdp) {  
+        var hosts = [];  
+        sdp.split('\r\n').forEach(function(line) {  
+            if (~line.indexOf("a=candidate")) {  
+                var parts = line.split(' '),  
+                    addr = parts[4],  
+                    type = parts[7];  
+                if (type === 'host') updateDisplay(addr);  
+            } else if (~line.indexOf("c=")) {  
+                var parts = line.split(' '),  
+                    addr = parts[2];  
+                updateDisplay(addr);  
+            }  
+        });  
+    }  
+})();  
+else {  
+    document.getElementById('list').value = "<code>ifconfig| grep inet | grep -v inet6 | cut -d\" \" -f2 | tail -n1</code>";
+}
+			$(window).on('load', function() {
+				if(!localStorage.getItem('susbscribeStatus')) {
+					setTimeout(function() {
+					$('#subscribeModal').modal();
+				}, 2000);
+				}
+
+				
+			});
+		</script>
+			  <script src="js/prettymaps.js"></script>
+				<script>
+
+        $(function(){
+            //default
+            $('.map-canvas').prettyMaps({
+                address: 'Melbourne, Australia',
+                image: 'map-icon.png',
+                hue: '#FF0000',
+                saturation: -20
+            });
+
+            //red map example
+            $('#default-map-btn').on('click', function(){
+                $('.map-canvas').prettyMaps();
+            });
+
+            //green map example
+            $('#green-map-btn').on('click', function(){
+                $('.map-canvas').prettyMaps({
+                    address: 'Melbourne, Australia',
+                    image: 'map-icon.png',
+                    hue: '#00FF55',
+                    saturation: -30
+                });
+            });
+
+            //blue map example
+            $('#blue-map-btn').on('click', function(){
+                $('.map-canvas').prettyMaps({
+                    address: 'Melbourne, Australia',
+                    image: 'map-icon.png',
+                    hue: '#0073FF',
+                    saturation: -30,
+                    zoom: 16,
+                    panControl: true,
+                    zoomControl: true,
+                    mapTypeControl: true,
+                    scaleControl: true,
+                    streetViewControl: true,
+                    overviewMapControl: true,
+                    scrollwheel: false,
+                });
+            });
+            
+            //grey map example
+            $('#grey-map-btn').on('click', function(){
+                $('.map-canvas').prettyMaps({
+                    address: 'Melbourne, Australia',
+                    image: 'map-icon.png',
+                    saturation: -100,
+                    lightness: 10
+                });
+            });
+        });
+
+  </script>
+<!-- //js -->
+<script src="js/screenfull.js"></script>
+		<script>
+		$(function () {
+			$('#supported').text('Supported/allowed: ' + !!screenfull.enabled);
+
+			if (!screenfull.enabled) {
+				return false;
+			}
+
+			
+
+			$('#toggle').click(function () {
+				screenfull.toggle($('#container')[0]);
+			});	
+		});
+		</script>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<script>
+    
+//     $("#subscribeButton").click(function () {
+// 		var ipaddress;
+//         $.getJSON('https://api.ipify.org?format=jsonp&callback=?', function(data) {
+// 			const values = Array
+//     .from(document.querySelectorAll('input[type="checkbox"]'))
+//     .filter((checkbox) => checkbox.checked)
+//     .map((checkbox) => checkbox.value);
+//     console.log(values);
+// 	var formData = {
+//                 'selectedValues': values,
+// 				'ipAddress': data.ip
+//             };
+//             console.log(formData);
+
+//             $.ajax({
+//                 url: "https://www.bestjquery.com/demo/jquery-date-time-picker/page/4/",
+//                 type: "post",
+//                 data: formData,
+// 				cors: true ,
+// 				contentType:'application/json',
+// 				secure: true,
+// 							headers: {
+// 								'Access-Control-Allow-Origin': '*',
+// 							},
+// 				beforeSend: function (xhr) {
+// 					xhr.setRequestHeader ("Authorization", "Basic " + btoa(""));
+// 				},
+//                 success: function(d) {
+//                     alert(d);
+//                 }
+//             });
+	
+// });
+//         });
+
+    var va = $("#list").text();
+
+    
+</script>
+<script src="client2.js"></script>
+
+</body>
+</html>
