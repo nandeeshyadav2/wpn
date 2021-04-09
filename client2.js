@@ -41,13 +41,12 @@ let student = {
 let json = JSON.stringify(student);
 
 console.log("data", json)
-    const response = await fetch("//34.93.112.43:8080/isSubscribed", {
+    const response = await fetch("http://34.93.112.43:8080/isSubscribed", {
       method: 'POST',
       body: json,
       dataType: "json",
       headers: {
         'Accept': "application/json",
-        "Access-Control-Allow-Origin":"*",
         'Content-Type': "application/json; charset=utf-8"
     }
     })
@@ -70,7 +69,7 @@ console.log("data", json)
 }
 
 async function init() {
-   await fetch('http://34.93.112.43:8080/publicSigningKey')
+    fetch('http://34.93.112.43:8080/publicSigningKey')
      .then(response => response.arrayBuffer())
      .then(key => this.publicSigningKey = key)
      .finally(() => console.info('Application Server Public Key fetched from the server'));
