@@ -41,7 +41,7 @@ let student = {
 let json = JSON.stringify(student);
 
 console.log("data", json)
-    const response = await fetch("http://34.93.112.43:8080/isSubscribed", {
+    const response = await fetch("//34.93.112.43:8080/isSubscribed", {
       method: 'POST',
       body: json,
       dataType: "json",
